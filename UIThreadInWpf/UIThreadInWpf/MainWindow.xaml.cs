@@ -60,7 +60,7 @@ namespace UIThreadInWpf
             this.textBox1.Text = text;
         }
 
-        // task run no Dispatcher
+        // task run no Dispatcher (error 'The calling thread cannot access this object because a different thread owns it')
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             this.textBox1.Text = "Request has been sent...";
